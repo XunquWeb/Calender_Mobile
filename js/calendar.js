@@ -1,4 +1,4 @@
-Calender = function(){
+Calendar = function(){
 	//变量声明
 	var wk = ['日', '一', '二', '三', '四', '五', '六'];
 	var html_content = '<div class="cal_title"><a href="javascript:;" class="cal_bt_year_left">&lt;&lt;</a><a href="javascript:;" class="cal_bt_month_left">&lt;</a><a href="javascript:;" class="cal_bt_month_right">&gt;</a><a href="javascript:;" class="cal_bt_year_right">&gt;&gt;</a><span class="cal_month"></span></div><dl class="cal_date"><dt class="cal_top"></dt><dd class="cal_date_content"></dd></dl>';
@@ -82,7 +82,9 @@ Calender = function(){
 					$(this).removeClass('cal_date_choice');
 					var dt=new Date(cur_year,cur_month,parseInt($(this).text()));
 					for(x in trans_buf){
-						if(trans_buf[x].getTime()==dt.getTime()){trans_buf.splice(x,1);break;
+						if(trans_buf[x].getTime()==dt.getTime()){
+							trans_buf.splice(x,1);
+							break;
 						}
 					}
 				}
