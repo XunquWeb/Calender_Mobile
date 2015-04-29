@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title> calender </title>
+<style type="text/css">
+@import url(./css/reset.css);
+@import url(./css/calender.css);
+</style>
+</head>
+
+<body>
+<div id="calobj" class="calobj"></div>
+
+<!-- 消息盒子 -->
+<div id="messageBox"></div>
+
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/calender.js"></script>
+<script type="text/javascript">
+	$(function($){
+		var myCalender = Calender();
+		myCalender.init({cal_id: 'calobj'});
+	})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+#calobj{width:500px; height:500px; background:#000; }
+#calobj .cal_title{position:relative; height:50px;}
+#calobj .cal_month{display:block; width:200px; height:50px; margin:0 auto; font:22px/50px auto; color:#fff; text-align:center;}
+#calobj .cal_bt_month_left,
+#calobj .cal_bt_month_right,
+#calobj .cal_bt_year_left,
+#calobj .cal_bt_year_right{position:absolute; display:block; height:50px; font:bold 22px/50px auto; text-decoration:none; color:#fff;}
+#calobj .cal_bt_month_left{left:100px; text-align:left;}
+#calobj .cal_bt_month_right{right:100px; text-align:right;}
+#calobj .cal_bt_year_left{left:50px; text-align:right; color:#fff;}
+#calobj .cal_bt_year_right{right:50px; text-align:right; color:#fff;}
+#calobj .cal_date{width:400px; margin:auto;}
+#calobj .cal_date span{display:inline-block; width:48px; height:50px; font: 30px/50px auto; border:1px solid #fff; margin:1px; color:#fff; text-align:center; cursor:pointer;}
+#calobj .cal_top span{width:50px; border:none; font-weight:bold;}
+#calobj .cal_date_content span.cal_date_gone{width:50px; height:50px; border:none; cursor:default;}
+#calobj .cal_date span.cal_date_now{color:#00f;}
+#calobj .cal_date span.cal_date_hover{background:#fff; color:#666;}
+#calobj .cal_date span.cal_date_choice{background:#0f0;}
