@@ -11,6 +11,8 @@
 #calobj .cal_bt_year_right{right:50px; text-align:right; color:#fff;}
 #calobj .cal_date{width:100%; margin:auto;}
 #calobj .cal_date span{display:inline-block; width:14.285%; height:50px; font: 30px/50px auto;  color:#fff; text-align:center; cursor:pointer;}
+#calobj .cal_date_content span.cal_date_coming{color:rgb(90, 86, 86);}
+#calobj .cal_date_content span.cal_date_gone{color:rgb(90, 86, 86);}
 #calobj .cal_top span{width:14.285%; border:none; font-weight:bold;}
 #calobj .cal_date_content span.cal_date_gone{width:14.285%; height:50px; border:none; cursor:default;}
 #calobj .cal_date span.cal_date_now{color:#00f;}
